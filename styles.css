@@ -1,0 +1,12 @@
+body{
+    color: #0505db;
+}
+
+@font-face {
+    font-family: 'Marcopolo';
+    src: url(fonts/Marcopolo.woff2) format('woff2'),
+        url(fonts/Marcopolo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
