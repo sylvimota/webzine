@@ -5,6 +5,7 @@ body{
     display: grid;
     grid-template-columns: repeat(1fr,4);
     grid-template-rows: 3;
+    overflow: hidden;
 }
 .gap-left{
     width: 300px;
@@ -19,7 +20,7 @@ align-items: left;
 justify-content: left;
 padding-left: 190px;
 }
-.stairscolor{
+.collage{
 grid-area: 2/2/3/4;
 align-items: center;
 justify-content: center;

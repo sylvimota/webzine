@@ -56,9 +56,16 @@ body{
 }
 
 .hallway{
-    filter: opacity(50%);
+    filter: grayscale(100%);
     transition: 0.2s;
 }
 .hallway:hover{
-    filter: opacity(100%);
+    filter: grayscale(0%);
+}
+.bathroom{
+    filter: grayscale(100%);
+    transition: 0.2s;
+}
+.bathroom:hover{
+    filter: grayscale(0%);
 }
