@@ -5,6 +5,7 @@ body{
     background-repeat: repeat;
     background-size: cover;
     margin: auto;
+    overflow: hidden;
 }
 
 @font-face {
@@ -33,20 +34,13 @@ body{
 .break1{
     grid-area: 1/1/2/4;
 }
-.gap-left{
-    grid-area: 1/1/4/2;
-    width: 200px;
-}
-.gap-right{
-    grid-area: 1/3/4/4;
-    width: 200px;
-}
+
 .title{
     grid-area: 2/2/3/3;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
-    padding-left: 40px;
+    padding-top: 50px;
+    padding-left: 0px;
 }
 
 .house{
