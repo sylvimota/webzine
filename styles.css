@@ -2,7 +2,6 @@ body{
     background-image: url(images/homeback.png);
     background-position: center center;
     background-attachment: fixed;
-    background-repeat: repeat;
     background-size: cover;
     margin: auto;
 }
@@ -26,39 +25,73 @@ body{
 }
 
 .container{
-    display: grid;
-    grid-template-columns: repeat(1fr, 3);
-    grid-template-rows: repeat(1fr, 3);
+display: grid;
+grid-template-columns: repeat(1fr, 5);
+grid-template-rows: repeat(1fr, 6);
+align-items: center;
+justify-content: center;
+}
+
+.gap-left{
+grid-area: 1/1/7/2;
+width: 150px;
+}
+.gap-right{
+grid-area: 1/5/7/6;
+width: 150px;
 }
 .break1{
-    grid-area: 1/1/2/4;
+    height: 50px;
 }
-
 .title{
-    grid-area: 2/2/3/3;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-left: 0px;
+grid-area: 2/2/3/5;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+
 }
 
-.house{
-    grid-area: 3/2/4/3;
-    align-items: center;
-    justify-content: center;
-}
-
-.hallway{
-    filter: grayscale(100%);
-    transition: 0.2s;
-}
-.hallway:hover{
-    filter: grayscale(0%);
+.kitchen{
+position: relative;
+grid-area: 4/3/5/5;
 }
 .bathroom{
+position: relative;
+grid-area: 4/2/5/4;
+}
+.hallway{
+position: relative;
+grid-area: 5/3/6/4;
+}
+.bed1{
+ position: relative;
+ grid-area: 5/2/6/3;
+
+}
+.living{
+position: relative;
+grid-area: 6/2/7/5;
+
+}
+.office{
+position: relative;
+grid-area: 5/4/6/5;
+}
+.attic{
+position: relative;
+grid-area: 3/2/4/5;
+}
+.house{
+    grid-area: 3/2/7/5;
+    position: relative;
+    }
+
+
+
+img{
     filter: grayscale(100%);
     transition: 0.2s;
 }
-.bathroom:hover{
+img:hover{
     filter: grayscale(0%);
 }
