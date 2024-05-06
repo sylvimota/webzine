@@ -48,7 +48,7 @@ grid-area: 2/2/3/5;
 align-items: center;
 justify-content: center;
 padding-top: 50px;
-
+position: relative;
 }
 
 .kitchen{
@@ -86,12 +86,30 @@ grid-area: 3/2/4/5;
     position: relative;
     }
 
-
+@media (max-width: 1512px){
+        .body{
+         margin: auto;
+        }
+}
+    
+@media only screen and (max-width: 600px) {
+        .body {
+            margin: auto;
+        }
+    
+}
+    
+ @media only screen and (max-width: 1024px) {
+        .body{
+            margin: auto;
+        }
+}
 
 img{
     filter: grayscale(100%);
-    transition: 0.2s;
+    transition: all 0.5s ease;
 }
 img:hover{
+    transform: scale(105%);
     filter: grayscale(0%);
 }
