@@ -1,5 +1,8 @@
 body{
-    background-color: white;
+    background-image: url(../images/gingham06.png);
+    background-repeat: repeat;
+    background-size: cover;
+    margin: auto;
 }
 .container{
     margin: auto;
@@ -11,29 +14,34 @@ body{
 
 .block{
 text-align: center;
-
 width: 430px;
-background-color: #9191c9;
 grid-area: 1/1/3/2;
 }
+
 .outline{
     align-items: right;
     justify-content: right;
     grid-area: 1/1/2/2;
     padding-left: 430px;
+    filter: grayscale(100%);
+    position: relative;
 }
+
 .collage{
     align-items: center;
     justify-content: center;
     grid-area: 1/1/3/2;
     padding-left: 100px;
-    padding-top: 200px;
+    padding-top: 140px;
+    position: relative;
 }
 .swirl{
     align-items: right;
     justify-content: right;
     grid-area: 1/1/3/2;
-    padding-left: 200px;
+    padding-left: 10px;
+    padding-top: 150px;
+    position: relative;
 }
 
 
