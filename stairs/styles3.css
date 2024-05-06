@@ -36,3 +36,8 @@ position: relative;
 grid-area: 1/1/4/4;
 position: relative;
 }
+.home{
+    grid-area: 3/4/4/5;
+    position: relative;
+    padding: 10px;
+}
