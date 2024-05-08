@@ -123,9 +123,11 @@ animation-duration: 2s;
         }
         .foot{
             grid-area: 3/1/4/2;
+            font-size: 70%;
         }
         .title{
             grid-area: 1/1/2/2;
+            font-size: 60%;
         }
     
 }
